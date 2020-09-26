@@ -1,4 +1,4 @@
-public class _LeetCode538 {
+public class LeetCode538 {
 
     private int sum = 0;
 

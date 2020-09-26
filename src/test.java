@@ -1,4 +1,4 @@
-import java.util.Date;
+import java.util.*;
 
 public class test {
 //    public static void main(String[] args) {
@@ -43,9 +43,14 @@ public class test {
 //    }
 
     public static void main(String[] args) {
-        System.out.println(new Date().toString());
+        List<Integer> list = new ArrayList<>();
+        Collections.sort(list, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return 0;
+            }
+        });
     }
-
 
 
 }
