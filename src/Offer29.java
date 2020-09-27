@@ -19,6 +19,10 @@ public class Offer29 {
                 y += my[j];
             }
             if (i == length - 1) {
+
+
+
+
                 res[i++] = matrix[x][y];
                 flag[x][y] = true;
             }
