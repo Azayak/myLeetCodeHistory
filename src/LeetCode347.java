@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class LeetCode347 {
+public class
+LeetCode347 {
 
     public int[] topKFrequent(int[] nums, int k) {
         int[] res = new int[k];

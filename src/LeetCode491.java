@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class _LeetCode491 {
+public class LeetCode491 {
 
 //    public List<List<Integer>> findSubsequences(int[] nums) {
 //        List<List<Integer>> res = new ArrayList<>();

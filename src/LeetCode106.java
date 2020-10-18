@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class _LeetCode106 {
+public class LeetCode106 {
 
     HashMap<Integer,Integer> memo = new HashMap<>();
     int[] post;

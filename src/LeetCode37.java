@@ -1,4 +1,4 @@
-public class _LeetCode37 {
+public class LeetCode37 {
 
     // box size
     int n = 3;

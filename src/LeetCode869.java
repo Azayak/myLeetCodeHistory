@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class _LeetCode869 {
+public class LeetCode869 {
 
     public boolean reorderedPowerOf2(int N) {
         int[] A = count(N);

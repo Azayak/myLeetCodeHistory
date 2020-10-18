@@ -24,3 +24,4 @@ public class LeetCode1 {
         return new int[2];
     }
 }
+
