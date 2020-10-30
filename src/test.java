@@ -43,13 +43,22 @@ public class test {
 //    }
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        Collections.sort(list, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return 0;
-            }
-        });
+//        List<Integer> list = new ArrayList<>();
+//        Collections.sort(list, new Comparator<Integer>() {
+//            @Override
+//            public int compare(Integer o1, Integer o2) {
+//                return 0;
+//            }
+//        });
+//        int num1 = 1, num2 = 2;
+//        int res = num1 | num2;
+//        System.out.println(res);
+
+        int[] array = {0,1,2,3,4,5};
+        int[] subArray = Arrays.copyOfRange(array, 1,8);
+        for (int num : subArray) {
+            System.out.print(num + "   ");
+        }
     }
 
 

@@ -1,7 +1,6 @@
-import org.jetbrains.annotations.NotNull;
 
 public class LeetCode45 {
-    public int jump(int @NotNull [] nums) {
+    public int jump(int [] nums) {
         int length = nums.length;
 
         int minStep = 0;

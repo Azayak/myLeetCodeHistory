@@ -29,6 +29,7 @@ public class LeetCode307 {
 //    }
 
     public static void main(String[] args) {
+            //test
         int[] nums = {1,3,5};
         LeetCode307 solve = new LeetCode307(nums);
         solve.sumRange(0,2);

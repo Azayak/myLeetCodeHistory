@@ -1,6 +1,8 @@
 public class LeetCode1024 {
     public int videoStitching(int[][] clips, int T) {
-        if (T == 0) return  0;
+        if (T == 0) {
+            return  0;
+        }
         int start = 0, end = 0;
         int count = 0;
         while (start < T) {
@@ -18,6 +20,3 @@ public class LeetCode1024 {
         return count;
     }
 }
-
-
-
